@@ -1,0 +1,1 @@
+package com.cloud.student.service;import com.cloud.student.model.Student;import org.springframework.stereotype.Service;@Servicepublic interface StudentService {    Student getStudentInfoByStudentId(String studentNo);}
