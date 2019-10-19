@@ -13,7 +13,7 @@
     <artifactId>student</artifactId>
     <dependencies>
         <dependency>
-            <groupId>com.edu.common</groupId>
+            <groupId>com.edu</groupId>
             <artifactId>common</artifactId>
             <version>1.0.0</version>
         </dependency>

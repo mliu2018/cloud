@@ -19,8 +19,7 @@
     <sql id="Base_Column_List">
         id, name, studentNo, sex, grade, classes, address, age, hobby
     </sql>
-
-    <select id="getStudentInfoByStudentId" parameterType="java.lang.String" resultMap="BaseResultMap">
+    <select id="getStudentInfoByStudentId" resultMap="BaseResultMap">
         select
         <include refid="Base_Column_List" />
         from student
