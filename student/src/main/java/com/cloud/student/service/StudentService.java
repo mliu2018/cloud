@@ -1,1 +1,1 @@
-package com.cloud.student.service;import com.cloud.student.model.Student;public interface StudentService {    Student getStudentInfoByStudentId(String studentNo);}
+package com.cloud.student.service;import com.cloud.student.model.Student;public interface StudentService {    Student getStudentInfoByStudentId(String studentNo);}
